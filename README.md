@@ -54,7 +54,7 @@ cmake --build . -j
 
 1. **Connect the Components**:
    - Assemble the circuit as per the layout.
-2. **Upload the Firmware**:
+2. **Upload the Firmware**:
    - Connect the Raspberry Pi Pico to your computer while holding the BOOTSEL button to enter USB mass storage mode.
    - Copy the generated `.uf2` file from the `build` directory to the Pico's storage.
 3. **Observe the Output**:
